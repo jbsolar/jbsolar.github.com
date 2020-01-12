@@ -537,10 +537,6 @@ a.post-title:hover,
 }
 
 /* copyright */
-.copyright {
-  border-top: 2px solid #f9f8f8;
-}
-
 .copyright .yellow-text:hover {
   color: #ffd500;
 }

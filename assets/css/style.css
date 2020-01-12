@@ -2001,8 +2001,8 @@ a.post-title:hover,
 /* FOOTER
 ================================================== */
 .site-footer {
-  padding-top: 150px;
-  background: #fff;
+  background: rgb(237, 237, 237);
+  color: #8d8d8d;
   position: relative;
 }
 
@@ -2072,8 +2072,7 @@ a.post-title:hover,
 
 /* copyright */
 .copyright {
-  border-top: 2px solid #f9f8f8;
-  padding: 0 15px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -2217,4 +2216,22 @@ a.post-title:hover,
     transform:translateX(0px);
     opacity:1;
   }
+}
+
+.company-history {
+  margin-bottom: 28px;
+  padding: 0 90px;
+}
+
+.company-history__top-row {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #ddd;
+}
+
+.company-history__row {
+  border-bottom: 1px solid #ddd;
+}
+
+.company-history__row__column {
+  padding: 12px;
 }
