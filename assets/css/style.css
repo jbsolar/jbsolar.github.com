@@ -2007,8 +2007,8 @@ a.post-title:hover,
 }
 
 .site-footer .row {
-  margin-top: 70px;
-  margin-bottom: 150px;
+  margin-top: 26px;
+  /* margin-bottom: 150px; */
 }
 
 .email {
@@ -2072,12 +2072,11 @@ a.post-title:hover,
 
 /* copyright */
 .copyright {
-  padding-bottom: 30px;
   text-align: center;
 }
 
 .copyright p {
-  padding: 25px 0;
+  padding: 18px 0;
   margin-bottom: 0;
 }
 
@@ -2113,7 +2112,8 @@ a.post-title:hover,
 }
 
 .project-detail {
-  font-size: 17px;
+  font-size: 16px;
+  height: 30px;
 }
 
 #main-page-animation {
@@ -2234,4 +2234,16 @@ a.post-title:hover,
 
 .company-history__row__column {
   padding: 12px;
+}
+
+.company-history__row__column-title {
+  font-weight: bold;
+}
+
+.company-info {
+  height: 146px;
+}
+
+.project-detail__content {
+  padding-left: 70px;
 }
