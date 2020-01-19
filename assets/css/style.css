@@ -389,14 +389,16 @@ input[type=radio] {
 }
 
 .selectpicker {
-    cursor: pointer;
-    position: relative;
-    font-size: 16px;
-    width: 220px;
-    height: 40px;
+  cursor: pointer;
+  position: relative;
+  font-size: 16px;
+  width: 100%;
+  height: 40px;
+  display: inline-block;
 }
 
 .selectpicker-styled {
+    width: 100%;
     position: absolute;
     top: 0;
     right: 0;
@@ -1575,7 +1577,7 @@ display: none;
 }
 
 .portfolio-link:hover .portfolio-info::before {
-  background: #ffffff;
+  /* background: #ffffff; */
   left: 0;
   right: 0;
   opacity: 1;
@@ -1645,7 +1647,7 @@ display: none;
   text-align: left;
   font-weight: 300;
   top: 0%;
-  background: #ffffff;
+  background: rgba(0, 0, 0, 0.5) !important;
   transform: translate3d(-50%, 0%, 0);
   -moz-transform: translate3d(-50%, 0%, 0);
   -webkit-transform: translate3d(-50%, 0%, 0);
@@ -1964,7 +1966,7 @@ a.post-title:hover,
 /* Section: contact-us */
 .section-contact-us .site-section-small {
   position: relative;
-  height: 600px;
+  height: 1442px;
 }
 
 .get-in-touch {
@@ -2246,4 +2248,9 @@ a.post-title:hover,
 
 .project-detail__content {
   padding-left: 70px;
+}
+
+.contact-label {
+  text-align: left;
+  color: #adb5bd;
 }

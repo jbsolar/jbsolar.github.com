@@ -432,9 +432,9 @@ a.white-text:hover {
   color: #fff;
 }
 
-.portfolio-link:hover .portfolio-info::before {
+/* .portfolio-link:hover .portfolio-info::before {
   background: #ffffff;
-}
+} */
 
 .portfolio-link h2 {
   color: #fff;
