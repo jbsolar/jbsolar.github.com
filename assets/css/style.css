@@ -1964,9 +1964,17 @@ a.post-title:hover,
  */
 
 /* Section: contact-us */
+.site-section-small {
+  position: relative;
+}
 .section-contact-us .site-section-small {
   position: relative;
-  height: 1442px;
+  height: calc(100vh - 88.9844px);
+}
+
+.contact-content {
+  height: 600px;
+  overflow-y: scroll;
 }
 
 .get-in-touch {
@@ -2221,7 +2229,6 @@ a.post-title:hover,
 }
 
 .company-history {
-  margin-bottom: 28px;
   padding: 0 90px;
 }
 
