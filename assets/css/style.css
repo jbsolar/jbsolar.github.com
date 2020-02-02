@@ -1969,7 +1969,7 @@ a.post-title:hover,
 }
 .section-contact-us .site-section-small {
   position: relative;
-  height: calc(100vh - 88.9844px);
+  height: 1440px;
 }
 
 .contact-content {
