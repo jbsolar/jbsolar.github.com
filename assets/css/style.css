@@ -1028,15 +1028,32 @@ blockquote {
 }
 
 .hero-max-720 {
-  max-height: 720px;
+  max-height: 340px;
 }
 
 .hero-about-us {
- background: url(../img/about-us.jpg) center no-repeat / cover; 
+ background: url(../img/about-us.jpg) center no-repeat;
+ background-size: cover;
 }
 
 .hero-contact {
- background: url(../img/contact.jpg) center no-repeat / cover; 
+ background: url(../img/contact.jpg) center no-repeat;
+ background-size: cover; 
+}
+
+.hero-project {
+ background: url(../img/project.jpg) center no-repeat;
+ background-size: cover; 
+}
+
+.hero-portfolio {
+  background: url(../img/portfolio.jpg) center no-repeat;
+  background-size: cover;  
+}
+
+.hero-module {
+  background: url(../img/solar-panel_7.jpg) center no-repeat;
+  background-size: cover;  
 }
 
 .hero-ui-elements {
@@ -1065,7 +1082,7 @@ blockquote {
   max-width: 790px;
   width: 100%;
   padding: 0 15px;
-  font-size: 64px;
+  font-size: 32px;
   font-weight: 700;
   text-align: center;
   margin: 0 auto;
@@ -1638,7 +1655,6 @@ display: none;
   -webkit-transform: translate3d(50%, 0%, 0);
   -o-transform: translate3d(50%, 0%, 0);
   -ms-transform: translate3d(50%, 0%, 0);
-
 }
 
 .portfolio-link p {
@@ -1647,6 +1663,7 @@ display: none;
   text-align: left;
   font-weight: 300;
   top: 0%;
+  color: #fff !important;
   background: rgba(0, 0, 0, 0.5) !important;
   transform: translate3d(-50%, 0%, 0);
   -moz-transform: translate3d(-50%, 0%, 0);
@@ -2104,7 +2121,7 @@ a.post-title:hover,
 }
 
 .page-menu-link {
-  font-size: 20px;
+  font-size: 16px;
   color: #000 !important;
 }
 
