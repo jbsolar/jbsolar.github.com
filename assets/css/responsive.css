@@ -14,8 +14,12 @@
 @media only screen and (max-width : 1199px) {
 	/* HERO
 	=====================================*/
-	.hero-text h1 {
-	 	font-size: 50px;
+	.hero-text__main {
+	 	width: 740px;
+	}
+
+	.hero-text__main h2 {
+		margin-bottom: 30px;
 	}
 
 	/* Section: we-are-creative */
@@ -26,6 +30,14 @@
 }
 
 @media all and (min-width: 991px) {
+
+	.hero-text__main {
+		width: 740px;
+	}
+
+	.hero-text__main h2 {
+		margin-bottom: 30px;
+	}
 
 	/* Section: Works three slides slider */
 	.three-slides-slider.multi-item-carousel .carousel-inner > .active.left,
@@ -210,6 +222,22 @@
 		 bottom: -55px;
 	}
 
+	.about__company {
+		width:945px;
+	}
+
+	.company-history {
+		padding: 0 90px;
+	}
+
+	.module-info {
+		padding: 0 90px;
+	}
+
+	.about__address {
+		padding: 0 90px;
+	}
+
 	/* 
 	 * BLOG
 	 */
@@ -237,14 +265,14 @@
 
  	.get-in-touch {
 	  	position: relative;
-	  	left: 0;
+	  	left: 10px;
 	}
 
 	.get-in-touch .section-title-gradient-left:after {
 	  	margin: 0;
 	} 
 
-  	.contact-form {
+	.contact-form {
   		position: relative;
   		left: 0;
   	  	max-width: 100%;
@@ -390,7 +418,7 @@
 
 	.slicknav_btn {
 		position: fixed;
-		top: 13px;
+		top: 30px;
 		right: 0;
 		margin: 0 15px 0 0;
 		padding: 5px;
@@ -405,12 +433,19 @@
 		height: 2px;
 		width: 22px;
 		display: block;
-		background-color: #fff;
 		-webkit-transition: all 0.3s;
 		-moz-transition: all 0.3s;
 		-ms-transition: all 0.3s;
 		-o-transition: all 0.3s;
 		transition: all 0.3s;
+	}
+
+	.slicknav_collapsed .slicknav_icon-bar {
+		background-color: #000;
+	}
+
+	.slicknav_open .slicknav_icon-bar {
+		background-color: #fff;
 	}
 
 	.slicknav_icon-bar + .slicknav_icon-bar {
@@ -675,6 +710,21 @@
 	/* 
 	 * ABOUT-US
 	 */
+	.about__company {
+		width: 300px;
+	}
+
+	.company-history {
+		padding: 0 30px;
+	}
+
+	.module-info {
+		padding: 0 15px;
+	}
+
+	.about__address {
+		padding: 0 30px;
+	}
 
 	/* Section: we-are-creative*/
 	.section-we-are-creative .col-sm-6 {
@@ -788,11 +838,19 @@
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 479px) {
 	.mb-xs-20 {	margin-bottom: 20px;}
+	.p-xs-20 {	padding: 10px 24px; }
 
 	/* HERO
 	================================================== */
-	.hero-text h1 {
-		max-width: 390px;
+	.hero-text__main {
+		width: 390px;
+		padding: 14px;
+	}
+
+	.hero-text__main h2 {
+		max-width: 318px;
+		margin: 0 auto;
+		margin-bottom: 18px;
 	}
 
 	/* SITE-MAIN

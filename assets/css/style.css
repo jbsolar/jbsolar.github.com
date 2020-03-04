@@ -2245,10 +2245,6 @@ a.post-title:hover,
   }
 }
 
-.company-history {
-  padding: 0 90px;
-}
-
 .company-history__top-row {
   border-top: 1px solid #999;
   border-bottom: 1px solid #ddd;
@@ -2263,6 +2259,23 @@ a.post-title:hover,
 }
 
 .company-history__row__column-title {
+  font-weight: bold;
+}
+
+.module-info__top-row {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #ddd;
+}
+
+.module-info__row {
+  border-bottom: 1px solid #ddd;
+}
+
+.module-info__row__column {
+  padding: 12px;
+}
+
+.module-info__row__column-title {
   font-weight: bold;
 }
 

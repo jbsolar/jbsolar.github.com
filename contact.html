@@ -104,57 +104,27 @@
                     <div class="col-md-9">
                         <div class="site-section-small">
                             <div class="form-horizontal contact-form">
-                                <div style="margin-bottom: 40px;">
-                                    <h3 style="text-align: left">견적내용</h3>
-                                    <label class="contact-label" for="contact-celltype">셀타입</label>
-                                    <input class="form-control" type="text" name="contact-celltype">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <label class="contact-label" for="contact-celltype">수량 *</label>
-                                            <input class="form-control" type="text" name="contact-amount" required>
+                                <form action="https://formspree.io/mayjdkbv" method="POST">
+                                    <div style="margin-bottom: 40px;">
+                                        <h3 style="text-align: left">견적내용</h3>
+                                        <label class="contact-label" for="contact-celltype">셀타입</label>
+                                        <input class="form-control" type="text" name="contact-celltype">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <label class="contact-label" for="contact-celltype">수량 *</label>
+                                                <input class="form-control" type="text" name="contact-amount" required>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label class="contact-label" for="contact-celltype">용량(kw) *</label>
+                                                <input class="form-control" type="text" name="contact-efficiency" required>
+                                            </div>
                                         </div>
-                                        <div class="col-sm-6">
-                                            <label class="contact-label" for="contact-celltype">용량(kw) *</label>
-                                            <input class="form-control" type="text" name="contact-efficiency" required>
+                                        <div>
+                                            <label class="contact-label" for="contact-celltype">납품일정</label>
                                         </div>
-                                    </div>
-                                    <div>
-                                        <label class="contact-label" for="contact-celltype">납품일정</label>
-                                    </div>
-                                    <div class="row" style="margin-bottom:14px;">
-                                        <div class="col-sm-3">
-                                            <select placeholder="년">
-                                            <option value="2020">2020</option>
-                                            <option value="2021">2021</option>
-                                            <option value="2022">2022</option>
-                                            <option value="2023">2023</option>
-                                            <option value="2024">2024</option>
-                                            <option value="2025">2025</option>
-                                            <option value="2026">2026</option>
-                                            <option value="2027">2027</option>
-                                            <option value="2028">2028</option>
-                                            <option value="2029">2029</option>
-                                            <option value="2030">2030</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <select placeholder="월">
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-                                                <option value="6">6</option>
-                                                <option value="7">7</option>
-                                                <option value="8">8</option>
-                                                <option value="9">9</option>
-                                                <option value="10">10</option>
-                                                <option value="11">11</option>
-                                                <option value="12">12</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <select placeholder="년">
+                                        <div class="row" style="margin-bottom:14px;">
+                                            <div class="col-sm-3">
+                                                <select placeholder="년">
                                                 <option value="2020">2020</option>
                                                 <option value="2021">2021</option>
                                                 <option value="2022">2022</option>
@@ -166,63 +136,90 @@
                                                 <option value="2028">2028</option>
                                                 <option value="2029">2029</option>
                                                 <option value="2030">2030</option>
-                                            </select>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <select placeholder="월">
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                    <option value="9">9</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <select placeholder="년">
+                                                    <option value="2020">2020</option>
+                                                    <option value="2021">2021</option>
+                                                    <option value="2022">2022</option>
+                                                    <option value="2023">2023</option>
+                                                    <option value="2024">2024</option>
+                                                    <option value="2025">2025</option>
+                                                    <option value="2026">2026</option>
+                                                    <option value="2027">2027</option>
+                                                    <option value="2028">2028</option>
+                                                    <option value="2029">2029</option>
+                                                    <option value="2030">2030</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <select placeholder="월">
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                    <option value="9">9</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                        <div class="col-sm-3">
-                                            <select placeholder="월">
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-                                                <option value="6">6</option>
-                                                <option value="7">7</option>
-                                                <option value="8">8</option>
-                                                <option value="9">9</option>
-                                                <option value="10">10</option>
-                                                <option value="11">11</option>
-                                                <option value="12">12</option>
-                                            </select>
-                                        </div>
+                                        <label class="contact-label" for="contact-area">납품지역</label>
+                                        <select name="contact-area">
+                                            <option value="korea">대한민국</option>
+                                            <option value="not_korea">대한민국 외</option>
+                                        </select>
+                                        <!-- <input class="form-control" type="text" name="contact-subject" placeholder="Subject">
+                                        <textarea class="form-control" placeholder="Message *" required></textarea> -->
                                     </div>
-                                    <label class="contact-label" for="contact-area">납품지역</label>
-                                    <select name="contact-area">
-                                        <option value="korea">대한민국</option>
-                                        <option value="not_korea">대한민국 외</option>
-                                    </select>
-                                    <!-- <input class="form-control" type="text" name="contact-subject" placeholder="Subject">
-                                    <textarea class="form-control" placeholder="Message *" required></textarea> -->
-                                </div>
 
-                                <div>
-                                    <h3 style="text-align: left">담당자 정보</h3>
-                                    <label class="contact-label" for="contact-company">회사명 *</label>
-                                    <input class="form-control" type="text" name="contact-company" required>
-                                    <label class="contact-label" for="contact-name">이름 *</label>
-                                    <input class="form-control" type="text" name="contact-name" required>
-                                    <label class="contact-label" for="contact-phone">전화 *</label>
-                                    <input class="form-control" type="text" name="contact-phone" required>
-                                    <label class="contact-label" for="contact-email">E-mail *</label>
-                                    <input class="form-control" type="email" name="contact-email" required>
-                                    <label class="contact-label" for="contact-address">주소</label>
-                                    <input class="form-control" type="email" name="contact-address">
-                                    <label class="contact-label" for="contact-project">프로젝트명</label>
-                                    <input class="form-control" type="email" name="contact-project">
-                                    <label class="contact-label" for="contact-project">상세내용</label>
-                                    <textarea class="form-control" placeholder="상세내용"></textarea>
-                                </div>
+                                    <div>
+                                        <h3 style="text-align: left">담당자 정보</h3>
+                                        <label class="contact-label" for="contact-company">회사명 *</label>
+                                        <input class="form-control" type="text" name="contact-company" required>
+                                        <label class="contact-label" for="name">이름 *</label>
+                                        <input class="form-control" type="text" name="name" required>
+                                        <label class="contact-label" for="contact-phone">전화 *</label>
+                                        <input class="form-control" type="text" name="contact-phone" required>
+                                        <label class="contact-label" for="_replyTo">E-mail *</label>
+                                        <input class="form-control" type="email" name="_replyTo" required>
+                                        <label class="contact-label" for="contact-address">주소</label>
+                                        <input class="form-control" type="text" name="contact-address">
+                                        <label class="contact-label" for="contact-project">프로젝트명</label>
+                                        <input class="form-control" type="text" name="contact-project">
+                                        <label class="contact-label" for="contact-project">상세내용</label>
+                                        <textarea class="form-control" placeholder="상세내용"></textarea>
+                                    </div>
 
-                                <div class="text-right">
-                                    <button class="btn btn-yellow" onclick="javascript:alert('준비 중 입니다.')">보내기</button>
-                                </div>
-                            </form><!-- /.contact-form -->
-
+                                    <div class="text-right">
+                                        <button class="btn btn-yellow" type="submit" value="Send">보내기</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
-                        
-                    </div>     
-                
                     </div>
-
                 </div>
             </div>
         </section><!-- /.section-contact-us -->
@@ -233,14 +230,14 @@
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-3 col-xs-6">
-                    <div class="mb-xs-20">
+                    <div class="mb-xs-20 p-xs-20">
                         <h4 class="small-title">회사 정보</h4>
                         <p class="mb-0">상호: (주)제이비솔라</p>
                         <p class="mb-0">사업자 등록 번호: 506-81-93059</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-xs-6">
-                    <div class="mb-xs-20">
+                    <div class="mb-xs-20 p-xs-20">
                         <h4 class="small-title">연락처</h4>
                         <ul class="list-unstyled">
                             <li>Tel: <a href="tel:0317520997">031-752-0997</a></li>
@@ -250,7 +247,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-xs-6">
-                    <div class="mb-xs-20">
+                    <div class="mb-xs-20 p-xs-20">
                         <h4 class="small-title">주소</h4>
                         <ul class="list-unstyled">
                             <li><span style="width: 33px;display: inline-block;">본사:</span>경기도 성남시 중원구 양현로 411</li>

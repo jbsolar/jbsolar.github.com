@@ -542,7 +542,7 @@ a.post-title:hover,
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 767px) { 
+@media only screen and (max-width : 767px) {
   .nav-tabs {
     background-color: #eaeaea;
     border-bottom: none!important;
@@ -557,7 +557,7 @@ a.post-title:hover,
   }
 
   .slicknav_nav > li a {
-    color: #fff;
+    color: #fff !important;
   }
 
   .dropdown-menu {
